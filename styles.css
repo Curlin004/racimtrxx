@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0078e7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #1E90FF;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tbody td, tbody th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody td[contenteditable="true"]:focus {
+    outline: 2px solid #0078e7;
+    background-color: #f0faff;
+}
+
+.phase-row td {
+    background-color: #dbe9ff;
+    font-weight: bold;
+    text-align: left;
+}
+
+.role {
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.role.r {
+    background-color: #FF6B6B;
+}
+
+.role.a {
+    background-color: #FFD93D;
+}
+
+.role.i {
+    background-color: #A8E6CF;
+}
+
+.role.c {
+    background-color: #C3C9F4;
+}
