@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fully Customizable Responsibility Matrix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fully Customizable Responsibility Matrix</h1>
+        <button id="add-column">Add Column</button>
+        <button id="add-row">Add Row</button>
+        <button id="delete-column">Delete Column</button>
+        <button id="delete-row">Delete Row</button>
+        <input type="color" id="color-picker" style="display: none;">
+        <table id="responsibility-matrix">
+            <thead>
+                <tr>
+                    <th contenteditable="true">Project Tasks</th>
+                    <th contenteditable="true">Senior Analyst</th>
+                    <th contenteditable="true">Project Manager</th>
+                    <th contenteditable="true">Head of Design</th>
+                    <th contenteditable="true">SVP Finance</th>
+                    <th contenteditable="true">SEO Lead</th>
+                    <th contenteditable="true">Sales Director</th>
+                    <th contenteditable="true">Senior Management</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="phase-row">
+                    <td contenteditable="true" colspan="8">Phase 1: Research</td>
+                </tr>
+                <tr>
+                    <td contenteditable="true">Econometric model</td>
+                    <td contenteditable="true" class="role r">R</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role a">A</td>
+                    <td contenteditable="true" class="role c">C</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role i">I</td>
+                </tr>
+                <tr>
+                    <td contenteditable="true">Strategic framework</td>
+                    <td contenteditable="true" class="role a">A</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role r">R</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role i">I</td>
+                    <td contenteditable="true" class="role c">C</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
